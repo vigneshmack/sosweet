@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>
+        chella kutty
+    </title>
+    <style>
+        ul {
+            list-style-type:none;
+            margin-left: 0px;
+            margin-top: 25px;
+            margin-right:6px;
+            padding: 2px;
+            overflow:hidden;
+        }
+        li {
+            float: left;
+            color:blue;
+        }
+        li a {
+            display: block;
+            font-size:30px;
+            text-align: center;
+            padding: 26px 112px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: orange;
+        }
+        .vikiwaseem
+        {
+            height:80%;
+            width:94%;
+            margin-top:-30px;
+            margin-left:2px;
+            border-top:1px solid black;
+            border-left:7px solid black;
+            border-right:7px solid black;
+            border-bottom:7px solid black;
+        }
+        .vinowaseem
+        {
+            height:72%;
+            width:40%;
+            margin-top:5%;
+            margin-left:30%;
+            margin-bottom:-8px;
+            margin-right:-6px;
+            border:4px solid black;
+        }
+        .viki {
+            background-color: deeppink;
+            color: white;
+            height:8%;
+            width:23%;
+            font-size: 17px;
+            border: 2px solid red;
+        }
+        .bb {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: crimson;
+            border: none;
+            color: ghostwhite;
+            text-align: center;
+            font-size: 23px;
+            padding: 15px;
+            width: 166px;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .bb span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+        }
+
+        .bb span:after {
+            content:none;
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+        }
+        .bb:hover {
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li style="border-left:2px solid black;border-top:2px solid black;border-bottom:12px solid black;background-color:darksalmon;"><a  href="additems.html">ADD NEW ITEMS</a></li>
+    <li style="border-left:7px solid black;border-top:7px solid black;border-bottom:9px solid black;background-color:azure;"><a  href="">TODAY MENUS</a></li>
+    <li style="border-left:7px solid black;border-top:2px solid black;border-bottom:12px solid black;background-color:darksalmon;"><a  href="">OFFERS</a></li>
+    <li style="border-left:2px solid black;border-top:2px solid black;border-bottom:12px solid black;background-color:darksalmon;"><a  href="">RECIEVE ORDER</a></li>
+</ul>
+<div class="vikiwaseem">
+    <div class="vinowaseem">
+        <form>
+            <br> <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label style="color:darkblue;font-size:30px;"> ITEM NAME</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"style="font-size:23px; background-color:blanchedalmond" name="in">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label style="color:darkblue;font-size:30px;"> CATEGORY</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select  class="viki" name="cat1">
+                <option style="background-color: azure;color:black;" value="breakfast">BREAKFAST</option>
+                <option style="background-color: azure;color:black;" value="launch">LAUNCH</option>
+                <option style="background-color: azure;color:black;" value="dinner">DINNER</option>
+                <option style="background-color: azure;color:black;" value="snacks">SNACKS</option>
+                <option style="background-color: azure;color:black;" value="cools&beverages">COOLS&BEVERAGES</option>
+            </select>
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label style="color:darkblue;font-size:30px;">ITEMTYPE</label>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select  class="viki" name="cat2">
+                <option style="background-color: azure;color:black;" value="breakfast">REGULAR</option>
+                <option style="background-color: azure;color:black;" value="launch">IRREGULAR</option>
+                <option style="background-color: azure;color:black;" value="dinner">NONE</option>
+            </select>
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label style="color:darkblue;font-size:30px;">PRICE</label>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input style="font-size:23px; background-color:blanchedalmond" type="password" name="pr"><br>
+            <br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <span> <input type="submit"  class="bb"  style="vertical-align:middle" value="ADD"></span> &nbsp;
+            <span><input type="cancel"  class="bb"  style="vertical-align:middle" value="DELETE"></span> &nbsp;
+        </form>
+    </div>
+</div>
+</body>
+</html>
